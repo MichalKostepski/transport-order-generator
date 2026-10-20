@@ -1,0 +1,38 @@
+# Sensitive and runtime config
+config.json
+.env
+.env.*
+!*.example
+
+# Business templates, generated documents, records, databases
+assets/app_icon.*
+data/
+ZAMÓWIENIA/
+orders/
+*.db
+*.sqlite
+*.sqlite3
+*.pdf
+!assets/template.pdf
+!docs/sample-transport-order.pdf
+*.bak
+*.log
+blad_uruchomienia.txt
+**/logs/
+
+# Python/build
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.pytest_cache/
+.idea/
+.vscode/
+*.exe
+*.msi
+build/
+dist/
+
+# Synthetic demo working files
+demo_data/
+docs/screenshots/*.tmp

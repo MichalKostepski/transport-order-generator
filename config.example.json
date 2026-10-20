@@ -1,0 +1,11 @@
+{
+  "database": {
+    "engine": "sqlite",
+    "sqlite_path": "data/transport_orders.db",
+    "sqlserver_connection_string": ""
+  },
+  "pdf": {
+    "template_path": "assets/template.pdf",
+    "output_directory": "%DESKTOP%/ZAMÓWIENIA"
+  }
+}
